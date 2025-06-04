@@ -6,9 +6,9 @@ from io import BytesIO
 st.markdown("""
     <style>
     .stApp {
-        background-image: url('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png');
+        background-image: "fondo_finagro.png";
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: yes-repeat;
         background-attachment: fixed;
         font-family: 'Handel Gothic', Frutiger light - Roman;
     }
@@ -18,7 +18,7 @@ st.markdown("""
 
 col1, col2 = st.columns([1, 5])
 with col1:
-    st.image("fondo_finagro.png", width=100)
+    st.image(url('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png'), width=100)
 with col2:
     st.title("Generador de Archivo DIVIPOLA desde el DANE")
 

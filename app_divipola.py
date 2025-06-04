@@ -7,7 +7,7 @@ from io import BytesIO
 st.markdown("""
     <style>
     .stApp {
-        background-image: "fondo_finagro.png";
+        background-image: "logo_superior_finagro.png";
         background-size: cover;
         background-repeat: repeat;
         background-attachment: fixed;

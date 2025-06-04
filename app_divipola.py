@@ -10,7 +10,10 @@ st.markdown("""
         background-color: #abbe4c;
         font-family: 'Handel Gothic', Frutiger light - Roman;
     }
-    
+    .stApp {
+        background-color: #abbe4c;
+        font-family: 'Arial', sans-serif;
+    }
     </style>
     """, unsafe_allow_html=True)
 

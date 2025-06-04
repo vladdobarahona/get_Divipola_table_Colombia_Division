@@ -5,24 +5,28 @@ from io import BytesIO
 
 # Fondo personalizado y fuente
 st.markdown("""
-    <style>
+<style>
     body {
         background-color: #abbe4c;
         font-family: 'Handel Gothic', 'Frutiger light - Roman';
     }
     .stApp {
-        background-color: #abbe4c;
+        background-color: rgb(255, 255, 255);
         font-family: 'Frutiger Bold', sans-serif;
     }
-    </style>
+</style>
     """, unsafe_allow_html=True)
-
+ 
 # Logo a la izquierda y título a la derecha
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([1, 2])
 with col1:
     st.image('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png', width=200)
 with col2:
-    st.title("Generador de Archivo DIVIPOLA desde el DANE")
+    st.markdown(
+        '<h1 style="color: rgb(120,154,61); font-size: 2.25rem; font-weight: bold;">Generador de Archivo DIVIPOLA desde el DANE</h1>',
+        unsafe_allow_html=True
+    )
+
 
 # Botón para ejecutar la descarga y procesamiento de datos
 if st.button("Descargar y procesar datos"):

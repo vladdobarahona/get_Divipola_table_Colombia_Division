@@ -8,7 +8,7 @@ st.markdown("""
     .stApp {
         background-image: "fondo_finagro.png";
         background-size: cover;
-        background-repeat: yes-repeat;
+        background-repeat: no-repeat;
         background-attachment: fixed;
         font-family: 'Handel Gothic', Frutiger light - Roman;
     }

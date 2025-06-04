@@ -5,13 +5,12 @@ from io import BytesIO
 # Cambia el color de fondo y la fuente usando CSS
 st.markdown("""
     <style>
-    body {
-        background-color: #e4e3cd;
-        font-family: 'Handel Gothic', Frutiger light - Roman;
-    }
     .stApp {
-        background-color: #cabd2a;
-        font-family: 'Handel Gothic',  Frutiger light - Roman;
+        background-image: url('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Handel Gothic', Frutiger light - Roman;
     }
     </style>
     """, unsafe_allow_html=True)

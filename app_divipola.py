@@ -2,11 +2,12 @@ import streamlit as st
 import pandas as pd
 import requests
 from io import BytesIO
-# Cambia el color de fondo y la fuente usando CSS
+
+# Fondo personalizado y fuente
 st.markdown("""
     <style>
     .stApp {
-        background-image: "fondo_finagro.png";
+        background-image: url('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -14,11 +15,11 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
-#st.title("Generador de Archivo DIVIPOLA desde el DANE")
 
+# Logo a la izquierda y título a la derecha
 col1, col2 = st.columns([1, 5])
 with col1:
-    st.image(url('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png'), width=100)
+    st.image('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png', width=100)
 with col2:
     st.title("Generador de Archivo DIVIPOLA desde el DANE")
 

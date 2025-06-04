@@ -6,6 +6,10 @@ from io import BytesIO
 # Fondo personalizado y fuente
 st.markdown("""
     <style>
+    body {
+        background-color: #abbe4c;
+        font-family: 'Handel Gothic', Frutiger light - Roman;
+    }
     .stApp {
         background-image: "logo_superior_finagro.png";
         background-size: cover;

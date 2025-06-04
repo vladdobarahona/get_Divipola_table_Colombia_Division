@@ -10,13 +10,7 @@ st.markdown("""
         background-color: #abbe4c;
         font-family: 'Handel Gothic', Frutiger light - Roman;
     }
-    .stApp {
-        background-image: "logo_superior_finagro.png";
-        background-size: cover;
-        background-repeat: repeat;
-        background-attachment: fixed;
-        font-family: 'Handel Gothic', Frutiger light - Roman;
-    }
+    
     </style>
     """, unsafe_allow_html=True)
 

@@ -19,7 +19,7 @@ st.markdown("""
 # Logo a la izquierda y título a la derecha
 col1, col2 = st.columns([1, 5])
 with col1:
-    st.image('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png', width=100)
+    st.image('https://www.finagro.com.co/sites/default/files/logo-front-finagro.png', width=200)
 with col2:
     st.title("Generador de Archivo DIVIPOLA desde el DANE")
 

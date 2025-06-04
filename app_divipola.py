@@ -26,8 +26,7 @@ with col2:
         '<h1 style="color: rgb(120,154,61); font-size: 2.25rem; font-weight: bold;">Generador de Archivo DIVIPOLA desde el DANE</h1>',
         unsafe_allow_html=True
     )
-
-
+    
 # Botón para ejecutar la descarga y procesamiento de datos
 if st.button("Descargar y procesar datos"):
     # URLs de los servicios web

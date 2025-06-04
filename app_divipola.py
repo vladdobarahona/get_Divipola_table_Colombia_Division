@@ -15,7 +15,13 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
-st.title("Generador de Archivo DIVIPOLA desde el DANE")
+#st.title("Generador de Archivo DIVIPOLA desde el DANE")
+
+col1, col2 = st.columns([1, 5])
+with col1:
+    st.image("fondo_finagro.png", width=100)
+with col2:
+    st.title("Generador de Archivo DIVIPOLA desde el DANE")
 
 # Botón para ejecutar la descarga y procesamiento de datos
 if st.button("Descargar y procesar datos"):

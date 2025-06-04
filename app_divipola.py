@@ -2,7 +2,19 @@ import streamlit as st
 import pandas as pd
 import requests
 from io import BytesIO
-
+# Cambia el color de fondo y la fuente usando CSS
+st.markdown("""
+    <style>
+    body {
+        background-color: #e4e3cd;
+        font-family: 'Handel Gothic', Frutiger light - Roman;
+    }
+    .stApp {
+        background-color: #cabd2a;
+        font-family: 'Handel Gothic',  Frutiger light - Roman;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 st.title("Generador de Archivo DIVIPOLA desde el DANE")
 
 # Botón para ejecutar la descarga y procesamiento de datos
